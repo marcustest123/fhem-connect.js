@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+Index.
+<input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script type="text/javascript">
+    function doFunction() {
+        var socket = io();
+        var fheminit = {
+            "key": "ezutjhwejzwejztzju6wuwuw6hz6hwh6z",
+            "cregex" : "^get$|^set$",
+            "dregex" : "^esszimmer$",
+            "reqpermin" : "180"};
+        socket.emit("fheminit", fheminit);
+    }
+</script>
+</body>
+</html>

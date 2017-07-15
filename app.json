@@ -1,0 +1,8 @@
+{
+  "name": "fhem-connect.js",
+  "description": "Let webservices communicate with fhem.connect.js, while fhem-connect.js communicates with fhem.js via websocket. fhem.js then communicates with FHEM via telnet.",
+  "repository": "https://github.com/MarcProe/node-js-fhem",
+  "logo": "https://fhem.de/cloudfree.png",
+  "keywords": ["node", "express", "heroku", "fhem"],
+  "image": "heroku/nodejs"
+}
